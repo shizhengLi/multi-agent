@@ -1,3 +1,7 @@
+# https://langchain-ai.github.io/langgraph/agents/agents/
+# 将langchain的agent与langgraph结合，实现一个简单的agent
+# 将jupyter notebook中的代码转换为python脚本
+
 import os
 from langgraph.prebuilt import create_react_agent
 from langchain.chat_models import init_chat_model

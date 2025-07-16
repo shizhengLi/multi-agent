@@ -1,3 +1,6 @@
+#https://langchain-ai.github.io/langgraph/tutorials/get-started/1-build-basic-chatbot/
+# 将jupyter notebook中的代码转换为python脚本
+
 import os
 from dotenv import load_dotenv
 

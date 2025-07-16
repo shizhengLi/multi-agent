@@ -1,4 +1,12 @@
+# 使用Tavily Search API进行网络搜索
+# 需要先在Tavily Search API中注册一个API Key
+# 然后设置环境变量TAVILY_API_KEY
+# 然后设置环境变量OPENAI_API_KEY
+# 然后设置环境变量OPENAI_API_BASE
 
+# https://python.langchain.com/docs/integrations/tools/tavily_search/
+# https://python.langchain.com/docs/integrations/tools/
+ 
 import os
 from dotenv import load_dotenv
 
