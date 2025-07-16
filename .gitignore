@@ -1,4 +1,9 @@
-# Byte-compiled / optimized / DLL files
+# .env
+.env
+# others
+Qwen2.5-Coder/
+
+ Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
