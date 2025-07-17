@@ -2,6 +2,8 @@
 
 基于Kimi K2大语言模型和Milvus向量数据库的智能检索系统
 
+Demo [demo.md](demo.md)
+
 ## 项目简介
 
 本项目利用Moonshot AI的Kimi K2大语言模型和Milvus向量数据库构建了一个智能检索系统，可以执行以下功能：
