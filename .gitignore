@@ -2,9 +2,14 @@
 .env
 # others
 Qwen2.5-Coder/
-milvus_demo/reverse_image_search.zip
-milvus_demo/images_folder/
-milvus_demo/milvus.db
+
+# Milvus Demo
+# milvus_demo/reverse_image_search.zip
+# milvus_demo/images_folder/
+# milvus_demo/milvus.db
+milvus_demo/text_image_search/images_folder/
+milvus_demo/text_image_search/milvus.db
+milvus_demo/text_image_search/reverse_image_search.zip
 
 
  Byte-compiled / optimized / DLL files
