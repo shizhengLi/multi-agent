@@ -33,6 +33,8 @@ Milvus支持三种类型的向量搜索方法：
 1. 激活conda环境：
 ```bash
 conda activate agent
+pip install --upgrade pymilvus "pymilvus[model]"
+# 否则from pymilvus.model.hybrid import BGEM3EmbeddingFunction 找不到
 ```
 
 2. 运行脚本：
