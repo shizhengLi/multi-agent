@@ -2,6 +2,10 @@
 .env
 # others
 Qwen2.5-Coder/
+milvus_demo/reverse_image_search.zip
+milvus_demo/images_folder/
+milvus_demo/milvus.db
+
 
  Byte-compiled / optimized / DLL files
 __pycache__/
