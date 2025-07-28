@@ -1,5 +1,15 @@
-# .env
+# .env files and sensitive data
 .env
+.env.*
+#!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+config.ini
+secrets.json
+credentials.json
+auth.json
 # others
 Qwen2.5-Coder/
 
@@ -13,6 +23,7 @@ milvus_demo/text_image_search/reverse_image_search.zip
 milvus_demo/hybrid_search/milvus.db
 milvus_demo/hybrid_search/quora_duplicate_questions.tsv
 #milvus_demo/hybrid_search/search_comparison.png
+open_deep_research/.env
 
 
  Byte-compiled / optimized / DLL files
