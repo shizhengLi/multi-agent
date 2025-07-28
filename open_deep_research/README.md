@@ -34,6 +34,13 @@ cp .env.example .env
 uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.11 langgraph dev --allow-blocking
 ```
 
+If activating venv, just run:
+
+```bash
+langgraph dev --allow-blocking
+```
+
+
 Use this to open the Studio UI:
 ```
 - 🚀 API: http://127.0.0.1:2024
