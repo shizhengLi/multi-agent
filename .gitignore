@@ -11,6 +11,7 @@ secrets.json
 credentials.json
 auth.json
 # others
+.langgraph_api
 Qwen2.5-Coder/
 
 # Milvus Demo

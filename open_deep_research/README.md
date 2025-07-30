@@ -20,6 +20,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 2. Install dependencies:
 ```bash
 uv pip install -r pyproject.toml
+uv pip install -e .
 ```
 
 3. Set up your `.env` file to customize the environment variables (for model selection, search tools, and other configuration settings):
@@ -29,16 +30,20 @@ cp .env.example .env
 
 4. Launch the assistant with the LangGraph server locally to open LangGraph Studio in your browser:
 
-```bash
-# Install dependencies and start the LangGraph server
-uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.11 langgraph dev --allow-blocking
-```
-
 If activating venv, just run:
 
 ```bash
 langgraph dev --allow-blocking
 ```
+
+or:
+
+```bash
+# Install dependencies and start the LangGraph server
+uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.11 langgraph dev --allow-blocking
+```
+
+
 
 
 Use this to open the Studio UI:
