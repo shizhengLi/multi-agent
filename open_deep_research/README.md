@@ -14,7 +14,8 @@ Deep research has broken out as one of the most popular agent applications. This
 git clone https://github.com/langchain-ai/open_deep_research.git
 cd open_deep_research
 uv venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate  
+# On Windows: .venv\Scripts\activate
 ```
 
 2. Install dependencies:
